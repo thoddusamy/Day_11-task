@@ -1,0 +1,101 @@
+<!-- 3. Design a contact us form with all fields as required. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact us form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Chakra+Petch:wght@700&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/e0395a0db3.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            place-content: center;
+            min-height: 100vh;
+            background-color: hsl(211deg 66% 42%)
+        }
+
+        .container-box {
+            margin-top: 60px;
+            color: white;
+            width: 600px;
+            height: 550px;
+            background-color: hsl(234deg 45% 42%);
+            text-align: center;
+            border: 10px solid hsl(199deg 86% 45%);
+
+        }
+
+        input {
+            width: 400px;
+            margin-top: 10px;
+            border: none;
+            color: #fff;
+            border-bottom: 3px solid hsl(211deg 66% 42%);
+            padding: 20px;
+            background-color: hsl(234deg 45% 42%);
+        }
+
+        .para {
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+
+        .btn {
+            cursor: pointer;
+            width: 150px;
+            margin-top: 40px;
+            font-size: 15px;
+            padding: 10px 13px;
+            color: white;
+            border: 3px solid white;
+            background-color: hsl(234deg 45% 42%);
+        }
+
+        .content {
+            margin-top: 62px;
+        }
+
+        ::placeholder {
+            color: hsl(199deg 86% 45%);
+            font-size: 15px;
+            text-align: left;
+            margin-left: 1px;
+        }
+
+        h1 {
+            font-size: 34px;
+            letter-spacing: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-box">
+        <div class="content">
+            <h1>CONTACT US</h1>
+            <p class="para">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt
+                impedit dolorem alias illum maxime cupiditate accusamus tempore omnis
+                quas animi!
+            </p>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required /><br />
+                <input type="email" name="email" placeholder="Your Email" required /><br />
+                <input type="text" name="message" placeholder="Your Message" required /><br />
+                <button class="btn" type="submit">
+                    SUBMIT <i class="fa-solid fa-arrow-right-long"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

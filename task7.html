@@ -1,0 +1,77 @@
+<!--7. Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png) -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            border: 2px solid black;
+            width: 35%;
+            padding: 5px 10px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10%;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <form name="myForm" method="post">
+            <table style="margin: 0px;">
+                <tr>
+                    <td style="background-color: red;">
+                        <font color="white" size="4"><b>Yes! I want to subscribe to <i>Mag-O-Zine</i></b></font>
+                    </td>
+                </tr>
+            </table>
+
+            <p>
+
+                First Name: <input type="text" name="fname" size="12" />
+                Last Name: <input type="text" name="lname" size="20" />
+
+                <br>
+                <br>
+
+                Address: <input type="text" name="addr" size="40" />
+
+                <br>
+                <br>
+
+                City: <input type="text" name="city" size="12" />
+                State: <input type="text" name="state" size="4" />
+                Zip: <input type="text" name="zip" size="10" />
+
+            </p>
+
+            <b>
+                Subscribe for:
+                <input type="radio" name="years" value="1" checked="checked"> 1 year ($19.95)
+                <input type="radio" name="years" value="2"> 2 years ($35.00)
+
+
+
+                <p>
+                    Send me more information about: <br />
+                    <input type="checkbox" name="check1" value="Computer-Zine" checked="checked" />
+                    Computer-Zine <br />
+                    <input type="checkbox" name="check2" value="Fisher-Zine" /> Fisher-Zine <br />
+                    <input type="checkbox" name="check3" value="Cat-O-Zine" checked="checked" /> Cat-O-Zine
+                </p>
+
+
+            </b>
+
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>
